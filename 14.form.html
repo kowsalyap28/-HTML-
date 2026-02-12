@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Login form</title>
+    </head>
+    <h2>Login form</h2>
+    <body>
+            <form method="POST">           <!--TWO types of method 1(GET transfer the data in public)2(POST saftest transfer method)-->
+            <table>
+            <tr>
+              <td>Name:</td>
+              <td><input type="text" name="username" size="19" maxlength="10"></td> <!--value default attribute-->
+            </tr>
+            <tr>
+              <td>password:</td>
+              <td><input type="password" name="pwd" size="19" maxlength="9"></td>
+            </tr>
+            <tr>
+                <td>Comments:</td>
+                <td><textarea name="comments" rows="4" placeholder="Enter your comments" ></textarea></td>
+            </tr>
+            <tr>
+                <td>gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="send">Female
+               
+            
+                    <input type="radio" name="gender"value="send">Male
+                </td>
+            </tr>
+            <tr>
+              <td></td>  <td><input type="submit"></td>
+            </tr>
+            </table>
+        </form>
+       
+    </body>
+</html>
