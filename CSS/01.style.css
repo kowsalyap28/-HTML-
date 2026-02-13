@@ -1,0 +1,37 @@
+*{
+#cricket
+{
+    color:palevioletred;
+}
+#football
+{
+    color:aqua;
+}
+.sports
+{
+    color:blue;
+}
+h6,h1
+{
+    /*background:black;*/
+    color:red;
+}
+
+         padding:20px;
+         border:28px;
+  
+}
+body{
+ background-image: url("images/background.jpg");
+ background-repeat:round;
+ background-attachment: fixed;
+ text-shadow:5px ;
+}
+h1{
+         padding:20px;
+ border:28px;
+ margin:11px
+}
+p{
+    text-align: center;
+}
