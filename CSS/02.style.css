@@ -1,0 +1,18 @@
+    .one{
+    border-style:solid;
+    border:3px solid purple;
+    margin:5px;
+    padding:6px;
+    width: 500px;
+}
+#two{
+    color:aqua;
+}
+*{
+    font-style: italic;
+    border:40px solid redl
+ }
+ h2{
+    border:3px solid blue;
+    width:250px;
+ }
