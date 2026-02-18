@@ -1,0 +1,39 @@
+ul{
+    margin-left: 40%;
+    color:gray;
+    cursor:pointer;
+}
+li:hover{
+    color:white;
+}
+li{
+    display:inline;
+}
+h1
+{
+    margin-left: 43%;
+}
+nav{
+    background-color: black;
+    color:azure;
+}
+.box{
+    display:inline-block;
+    border:2px solid black;
+    
+}
+p{
+    width:200px;
+}
+.product{
+    gap:20px;
+   
+}
+.box:hover{
+    background-color: black;
+    color:white;
+}
+.Contact{
+    background-color: black;
+    color:azure;
+}
