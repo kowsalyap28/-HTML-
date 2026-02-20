@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/transparent.png);
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: solid 2px black;
+            width: 400px;
+            height:400px;
+            background-color: rgba(225, 225, 225, 0.1);
+            justify-content: space-between;
+        }
+
+        #one {
+            outline:none;
+            display: inline;
+            border: solid black 2px;
+             color:white;
+        }
+
+
+        #two {
+            outline: none;
+            display: inline;
+            margin-left: 60px;
+            border: solid black 2px;
+             color:white;
+        }
+
+        #one:hover {
+            background-color: blueviolet;
+            color: black;
+            cursor: pointer;
+        }
+
+        #two:hover {
+            background-color: blueviolet;
+            color: black;
+            cursor: pointer;
+           
+        }
+
+        input {
+            background-color: rgba(225, 225, 225, 0.1);
+            outline: none;
+            padding: 10px 0;
+            width: 250px;
+            border-radius: 10px;
+            color:white;
+            
+        }
+        input::placeholder{
+            color:white;
+            opacity: 1;
+           font-size: 20px;;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+
+
+    <form class="content">
+        <h2>Login</h2>
+        <h3><input type="text" placeholder="Username"></h3>
+        <h3><input type="password" placeholder="password"></h3>
+        <div class="bc">
+            <p id="one" style= "font-size: 20px;">
+                Remember me
+            </p>
+            <p id="two"  style= "font-size: 20px;">
+                Forget Password
+            </p>
+            <p style="text-align:center">
+                Login</p>
+            <p style="text-align:center">Don't have an account</p>
+        </div>
+    </form>
+
+</body>
+
+</html>
