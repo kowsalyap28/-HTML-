@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>exercise</title>
+    <style>
+     
+        fieldset {
+            width: 600px;
+        }
+
+        nav h2 {
+            display: inline;
+        }
+
+        a {
+            padding: 20px;
+        }
+
+        .intro {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 500px;
+        }
+
+        #box {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 500px;
+
+        }
+
+        #contact {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 600px;
+
+        }
+
+        #three input {
+            margin-bottom: 10px;
+            border-right: none;
+            border-top: none;
+            border-left: none;
+            width: 250px;
+            height: 20px;
+            background-color: white;
+            border-radius: 10px;
+            height: 30px;
+
+        }
+
+        #four input {
+            margin-bottom: 10px;
+            height: 20px;
+            width: 250px;
+            background-color: white;
+            border-radius: 10px;
+            /* border:none; */
+            border-color: gray;
+            height: 30px;
+
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .ph::placeholder{
+            color:white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <fieldset>
+            <div class="heading">
+                <nav>
+                    <h2>Student Portfolio</h2>
+
+                    <a href="#" style="text-decoration: none;" id="one">
+                        Home
+                    </a>
+                    <a href="#" style="text-decoration: none;">
+                        About
+                    </a>
+                    <a href="#" style="text-decoration: none;">
+                        Skills
+                    </a>
+                    <a href="#" style="text-decoration: none;">
+                        Contact
+                    </a>
+
+                </nav>
+            </div>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <h1>John Doe</h1>
+            <div class="intro">
+
+                <p id="one">Hello! I am a AI & Data Science student passionate about<br>
+                    Web development</p>
+                <p id="two">
+                    <img src="images/image.png" style="width: 100px;height: 100px ;">
+                    </img>
+                </p>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <h2>About Me</h2>
+            <p>I am currently studying AI & DS at BIT</p>
+            <p>I love coding,learning new technologies ,and solving problems</p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <h2>Skills</h2>
+            <div id="box">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java Script</li>
+                </ul>
+                <ol>
+                    <li>Problem Solving</li>
+                    <li>Team work</li>
+                    <li>Critical Thinking</li>
+                </ol>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <h2>Contact Me</h2>
+            <div id="contact">
+                <p id="three" style="gap: 8px;">
+                    <input placeholder=Name:><br>
+                    <input placeholder=Email:><br>
+                    <input placeholder=Message:><br>
+                </p>
+                <p id="four">
+                    <input placeholder="Name:"><br>
+                    <input placeholder="Email:"><br>
+                    <input placeholder="Message "style="height: 100px;"><br>
+                    <input class="ph" placeholder="Send Message" style="background-color: blue; ;text-align: center" ;>
+                </p>
+            </div>
+        </fieldset>
+    </div>
+</body>
+
+</html>
