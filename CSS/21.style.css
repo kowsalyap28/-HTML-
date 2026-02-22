@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin:0;
+
+}
+.head{
+    background-color: red;
+    color: white;
+    height: 60px;
+}
+nav{
+    display:flex;
+    padding: 20px;
+    
+}
+nav p {
+  
+    padding:20px;
+    align-items: center;
+}
+#one{
+    margin-left: 70%;
+}
+nav p:hover{
+  cursor: pointer;
+}
+#box1 ,#box2{
+    border: solid white 2px;
+    width: 100%;
+    border-radius: 10px;
+    height:300px;
+    max-width: 300px;
+      background-color: aliceblue;
+}
+#box{
+      
+     display: grid;
+     grid-template-columns:repeat(2,300px);
+     justify-content: center;
+     margin-top: 20px;
+     gap:10px;
+   
+}
+#box11{
+    border:solid 2px gray;
+  
+    height: 50%;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.5);;
+    position: relative;
+     
+}
+
+input{
+    display: flex;
+    text-align: center;
+   justify-content: center;
+   margin-left: 20px;
+   margin-top: 20px;
+   background-color: green;
+   height: 30px;
+   border-radius: 10px;
+  
+}
+#open, #busy{
+   
+   position: absolute;
+   top: 5px;
+    left: 5px;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 14px;
+
+  
+}
+#open {
+ display: inline;
+    background-color: green;
+  
+}
+#busy{
+    display: inline;
+    background-color: yellow;
+  
+}
+
+input::placeholder{
+    color: aliceblue;
+}
+
