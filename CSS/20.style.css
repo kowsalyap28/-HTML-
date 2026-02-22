@@ -1,0 +1,47 @@
+body{
+    background:radial-gradient(circle at 20% 30%,black ,purple,blue,transparent 40%),red
+     radial-gradient(circle at 80% 70%,black ,purple,blue,transparent 40%);
+       /* #0b0f1a; */
+      color: azure;
+   
+    
+}
+.cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "h h h"
+    "s s1 s2"
+    "f f f";
+   
+}
+.box div{
+    padding: 10px;
+    border: solid white 1px;
+    display: grid;
+    align-items:center;
+    justify-content: center;
+}
+.box1{
+    grid-area: h;
+}
+.box2{
+    grid-area: s;
+}
+.box3{
+    grid-area:s1;
+}
+.box4{
+    grid-area:s2; 
+}
+.box5{
+    grid-area:f;
+}
