@@ -1,0 +1,36 @@
+.head{
+    background-color: rgb(8, 8, 247);
+    color: white;
+}
+nav{
+    display: flex;
+    font-size: 27px;
+}
+nav h3{
+    margin-right:40px;
+    margin-top: 0;
+    cursor: pointer;
+}
+span{
+    margin-right: 20px;
+    cursor: pointer;
+}
+#one{
+    margin-left: 70%;
+}
+.box{
+    display: grid;
+    grid-template-columns:2fr 2fr;
+    justify-content: center;
+   
+    margin-left: 70px;
+    margin-right: 100px;
+    background-color: aliceblue;
+      height: 500px;
+    
+}
+.side{
+    border: solid 2px rgb(52, 174, 211);;
+    height: 100vh;
+    background-color: rgb(52, 174, 211);
+}
