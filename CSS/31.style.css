@@ -1,0 +1,63 @@
+#box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "one two three"
+        "one four five";
+    row-gap: 100px;
+    column-gap: 100px;
+    width: 100%;
+    height: 100vh;
+}
+
+#o {
+    grid-area: one;
+
+
+
+}
+
+#t {
+    grid-area: two;
+    width: 50%;
+    height: 80%;
+    margin-left: 400px;
+
+}
+
+#th {
+    grid-area: three;
+    width: 50%;
+    height: 80%;
+    margin-left: 200px;
+
+}
+
+#f {
+    grid-area: four;
+    width: 50%;
+    margin-left: 400px;
+    height: 80%;
+    margin-top: -50px;
+}
+
+#fi {
+    grid-area: five;
+    width: 50%;
+    margin-left: 200px;
+    height: 80%;
+    margin-top: -50px;
+
+}
+
+p {
+    border: solid 2px red;
+    gap: 20px;
+    row-gap: 200px;
+    column-gap: 900px;
+    position: relative;
+}
+#t, #th {
+    border-bottom: 3px solid black;
+}
